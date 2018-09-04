@@ -4,7 +4,7 @@
  * date: 2018-3-31 14:36:57
  */
 
-document.getElementsByClassName("am-dropdown")[3].innerHTML = "<div style='line-height:68px; color:#F00;'>当前页面已使用蚁点视频自动播放插件";
+document.getElementsByClassName("am-topbar-brand")[0].innerHTML = "<div style='line-height:68px; color:#F00;'>当前页面已使用蚁点视频自动播放插件";
 
 console.log("蚁点视频自动播放插件开始工作");
 try {
