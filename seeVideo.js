@@ -30,6 +30,9 @@ try {
 					}
 					jwplayer(0).play(true);
 					console.log($(".active").attr("title")+"视频下一个开始播放");
+					setTimeout(function(){
+					    $('.am-modal-btn').click();
+					}, 2000);
 					return false;
 				}  
 				//console.log($(this).html());
